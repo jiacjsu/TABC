@@ -1,0 +1,13 @@
+      12       3       2	read(*, '(3I8)') N3d, N2p, dimen
+       8       8  	        read(*, '(2I8)') nup, ndn
+       0                        read(*, '(3I8)') pp
+ 950.0d0 900.0d0 		read(*, '(2F8.2)') maxE_loss,minE_loss
+ 950.0d0 900.0d0 		read(*, '(2F8.2)') maxE,minE
+    2001    2001     		read(*, '(2F8.2)') Ediv,Eloss_div
+ps				read(*, '(2A1)') PorS_in, PorS_out
+     100     100    2000 	read(*, '(3I8)') niter_CL, niter_CFE, niter_CG
+ 0.00001 0.00001        	read(*, '(2F8.6)') tol_CL, tol_CG
+   0.4d0   0.4d0            	read(*, '(2F8.2)') epsilone_CG, epsilone_CFE
+
+
+
